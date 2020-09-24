@@ -4,8 +4,7 @@ This is an accumulation of my Onshape assignments and my thoughts on each one. E
 
 ### Base 
 
-<img src="images/Base%20Screenshot.PNG">
-![](images/Base%20Screenshot.PNG)
+<img src="images/https://github.com/khester35/Basic_Onshape_CAD/blob/master/Images/Base%20Screenshot.PNG">
 
 In this assignment, I had to make a rectangular extrusion with seven holes cut through it. It's the first part of the Caster Assembly. In Solidworks, this would have been very straightforward; my biggest struggle with this assignment was getting used to the new program. However, I soon realized that Onshape and Solidworks are very similar. I actually kind of like Onshape better! It's much more convenient: I created one document called "Caster" and just made a new part studio for the base. Hopefully that'll work so later down the line, I don't have a million different documents floating around.
 
