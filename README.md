@@ -65,3 +65,27 @@ Like I said earlier: I really like Onshape. I only made one document and it held
 ![Dowel](https://github.com/khester35/Basic_Onshape_CAD/blob/master/Images/Dowel%20Pin.PNG)
 
 This assignment was certainly interesting. The videos were dense for sure but rather simple after a few rewatches. The assignment incorporated aspects of Onshape I was already familiar with (chamfers, extrusions, cuts, etc.) and put them together with the added challenge of configurations. Like most Onshape functions, configurations are much more convenient here than in Solidworks. I ran into my first speed bump when trying to mate the frame together. I had all of the dowel pins in the pieces of the frame when I discovered that one of holes was too close to the edge and actually ran through the frame. So, I had to mess around with the sketch to make sure that the dowel wasn't poking out at random points on the frame. The fix was easy and honestly, probably due to skipping steps the first time around; all I had to do was push the circles in the sketch closer together until that one didn't poke through. Then, I mated the frame together again but I noticed that there were places where they overlapped. I went back into the sketch, this time the sketch of the trapezoid, and adjusted the dimensions of the sides. The length was different between the configurations of the frame, but the sides could be the same without messing with that. So, I dimensioned one and made them equal. This carried over to the other configuration and fixed my problem in the assembly! 
+
+### Onshape Challenge
+
+#### Cube
+
+![Cube](https://github.com/khester35/Basic_Onshape_CAD/blob/master/Images/Cube_SS.PNG)
+
+The cube was pretty straightforward; I didn't really have any issues with it. I think that I could have extruded the cylinder on one or two of the faces and mirrored the rest, but I couldn't figure out how to do that without the mirrored cylinder being a strange distance away from the face of the cube. So, I figured I'd spend the extra time on the other two. 
+
+#### Spinner Shaft
+
+![Spinner Shaft](https://github.com/khester35/Basic_Onshape_CAD/blob/master/Images/Spinner_Shaft_SS.PNG)
+
+#### Bracket
+
+![Bracket](https://github.com/khester35/Basic_Onshape_CAD/blob/master/Images/Spinner_Shaft_SS.PNG)
+
+First, I extruded my sketch as a surface. Then, I used Thicken on the extrude. I dimensioned and extruded the holes first, then I filleted the edges. This is where I ran into my first problem. Even though I filleted the edges, they still had the sharp sides overtop of the newly curved ones. I found two ways to solve this: you can either extrude a cut through the sharp edges in the exact shape or you can hide the surface. Hiding the surface is both much simpler and it solves the second problem (which goes away in the assembly anyway): the holes don't cut all the way through the surface extrusion, just the thicken feature. This means that there was a thin layer overtop of my cuts and they didn't extend fully through the top of the extrusion. 
+
+#### Onshape Challenge Assembly
+
+![Assembly](https://github.com/khester35/Basic_Onshape_CAD/blob/master/Images/Onshape_Challenge_Assembly_SS.PNG)
+
+This was what I had the most trouble with. At first, it was smooth sailing: I was able to mate the spinner shafts to the cube with ease. Then, when I went to mate the shafts to the bracket, the mates, for lack of a better term, broke. I couldn't get the shafts to mate properly on the cube and the bracket at the same time. It was either one or the other. I tried mating them in a different order and making small size adjustments on the individual parts. I was using revolute mates on everything and it turned out that was the problem. The only way to make it work was the use cylindrical mates on the shaft/bracket. Then, it was perfect!
